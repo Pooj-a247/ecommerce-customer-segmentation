@@ -102,6 +102,10 @@ jupyter notebook customer_segmentation_simplified.ipynb
 
 ---
 
+## --> Customer Segment Distribution
+
+![Customer Segments](customer_segments_plot.png)
+
 ## --> Tech Stack
 
 - Python
