@@ -1,4 +1,4 @@
-# 🛒 Customer Segmentation using K-Means Clustering
+# --> Customer Segmentation using K-Means Clustering
 
 Hey! 👋
 This is a machine learning project I built during a hackathon where I explored how to segment e-commerce customers based on their purchasing behavior.
@@ -7,7 +7,7 @@ The goal was to move away from treating all customers the same and instead use d
 
 ---
 
-## 🤔 Problem
+## --> Problem
 
 Most online stores apply the same marketing strategy to every customer, which isn't very effective.
 
@@ -20,7 +20,7 @@ So instead of guessing, I used transaction data to identify patterns and segment
 
 ---
 
-## 🧠 Approach
+## --> Approach
 
 I used **RFM Analysis** along with **K-Means Clustering:**
 
@@ -38,7 +38,7 @@ Workflow:
 
 ---
 
-## 🏷️ Customer Segments
+## --> Customer Segments
 
 Based on the clustering results, I identified ~5 customer groups:
 
@@ -54,7 +54,7 @@ Based on the clustering results, I identified ~5 customer groups:
 
 ---
 
-## 📁 Project Structure
+## --> Project Structure
 
 ```
 ecommerce-customer-segmentation/
@@ -66,7 +66,7 @@ ecommerce-customer-segmentation/
 
 ---
 
-## 🗂️ Dataset
+## --> Dataset
 
 - ~500,000 transactions from an online retail dataset
 - Sourced from **Kaggle** (originally from UCI Machine Learning Repository)
@@ -74,7 +74,7 @@ ecommerce-customer-segmentation/
 
 ---
 
-## 🚀 How to Run
+## --> How to Run
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
@@ -92,7 +92,7 @@ jupyter notebook customer_segmentation_simplified.ipynb
 
 ---
 
-## 📊 Sample Output
+## --> Sample Output
 
 | Customer ID | Recency | Frequency | Monetary | Segment |
 |---|---|---|---|---|
@@ -102,7 +102,7 @@ jupyter notebook customer_segmentation_simplified.ipynb
 
 ---
 
-## 🛠️ Tech Stack
+## --> Tech Stack
 
 - Python
 - pandas, numpy
@@ -110,16 +110,6 @@ jupyter notebook customer_segmentation_simplified.ipynb
 - scikit-learn
 
 ---
-
-## 📌 Key Takeaways
-
-- Real-world data requires significant cleaning before modeling
-- Feature engineering (RFM) plays a major role in clustering quality
-- Choosing the number of clusters is not always straightforward
-- Interpreting clusters is just as important as building them
-
----
-
 ## 👤 About
 
 Built during a hackathon as part of exploring applied machine learning.
